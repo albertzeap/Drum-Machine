@@ -1,4 +1,5 @@
 import React from 'react'
+import KeyboardKey from './KeyboardKey';
 
 const soundPack = [
     {
@@ -66,20 +67,11 @@ const soundPack = [
   ]
 
 
+// @Descrip: Generates the key buttons for the corresponding sounds
+// @param destructured play function
+// @Return: Button tag and audio tags
 const Keyboard = ({play}) => {
-    return (
-        soundPack.map(sound => {
-        return <button className="drum-pad" id={sound.id} 
-        onClick={() => play(sound.key)}>
-        {sound.key}
-        <audio class="clip" id={sound.key} src={sound.url}></audio>
-      </button>
-    })
-    );
-
-    
-   
-  
+    return soundPack.map((sound) => <KeyboardKey play={play} sound={sound}/> );
 }
 
 export default Keyboard
