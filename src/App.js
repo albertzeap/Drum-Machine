@@ -1,12 +1,18 @@
 import './App.css';
+import ControlPanel from './ControlPanel';
 import Drum from './Drum';
 
 
 
 function App() {
   return (
-    <div className="App">
-      <Drum />
+    <div className="app">
+      <div className="container">
+        <div className="drum-container">
+          <Drum />
+          <ControlPanel />
+        </div>
+      </div>
     </div>
   );
 }

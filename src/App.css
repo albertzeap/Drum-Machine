@@ -1,0 +1,14 @@
+.container{
+    margin: 15px;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 10px red solid; */
+}
+.drum-container{
+    display: flex;
+    padding: 2em;
+    /* border: 10px red solid; */
+    background-color:gray;
+}

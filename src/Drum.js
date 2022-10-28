@@ -1,6 +1,7 @@
 import React from 'react'
-import ControlPanel from './ControlPanel';
 import Keyboard from './Keyboard'
+
+import "./Drum.css"
 
 function Drum() {
 
@@ -15,7 +16,6 @@ function Drum() {
   return (
     <div id="drum-machine">
       <Keyboard  play={playSound}/>
-      <ControlPanel/>
     </div>
   )
 }
