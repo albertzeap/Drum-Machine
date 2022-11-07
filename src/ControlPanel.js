@@ -5,7 +5,7 @@ function ControlPanel() {
   return (
     <div className="control">
         <h1 className="drum-header">Drum Machine</h1>
-        <Display  />
+        <Display />
     </div>
   )
 }

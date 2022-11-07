@@ -1,6 +1,6 @@
-import './App.css';
-import ControlPanel from './ControlPanel';
+import './styles/App.css';
 import Drum from './Drum';
+import ControlPanel from './ControlPanel';
 
 
 

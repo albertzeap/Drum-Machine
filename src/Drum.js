@@ -1,7 +1,8 @@
 import React from 'react'
 import Keyboard from './Keyboard'
 
-import "./Drum.css"
+import "./styles/Drum.css"
+
 
 function Drum() {
 
