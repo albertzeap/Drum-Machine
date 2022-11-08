@@ -14,22 +14,23 @@ function KeyboardKey({play, sound: {key,id, url, keycode}}) {
     }
 
     const handleClick = (key) => {
+      play(key);
       const button = document.getElementById(id);
       const padDisplay = document.getElementById("pad");
       padDisplay.innerHTML = id;
       button.animate(buttonHit,buttonTime);
-      play(key);
+      
     }
 
 
     const handleKeyPress = (event) =>{
         if(event.keyCode === keycode){
+          play(key);
           const button = document.getElementById(id);
           const padDisplay = document.getElementById("pad");
           padDisplay.innerHTML = id;
-
           button.animate(buttonHit,buttonTime);
-          play(key);
+         
          
 
         }

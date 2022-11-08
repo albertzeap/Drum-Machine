@@ -1,5 +1,6 @@
 import React from 'react'
 import Display from './Display'
+import './styles/ControlPanel.css'
 
 function ControlPanel() {
   return (

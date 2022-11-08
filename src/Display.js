@@ -1,4 +1,5 @@
 import React from 'react'
+import './styles/Display.css'
 
 function Display({key,id}) {
   const name = document.getElementById(id);
@@ -6,7 +7,7 @@ function Display({key,id}) {
 
   return (
     <div className="display">
-        <div id="pad"></div>
+        <div id="pad">...</div>
     </div>
   )
 }
