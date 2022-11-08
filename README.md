@@ -5,6 +5,12 @@ user interaction. User interaction is classified as both clicks and key presses.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Tools 
+
+The tools that used to create this web application include:
+ - React Library for component design and bootstrapping
+ - Firebase for hosting the web application
+
 # Goal
 
 Through the creation of this project, my goal was to deeper understand data flow through components, rendering
@@ -12,4 +18,6 @@ based off changes within the program, and component structuring to optimize data
 
 # Live Demo
 
-The web applicaiton can be visited through the following link https://drum-machine-85661.web.app
+The web applicaiton can be visited through the following link: https://drum-machine-85661.web.app
+
+
